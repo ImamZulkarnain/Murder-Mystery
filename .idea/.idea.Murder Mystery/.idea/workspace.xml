@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b786ac3-8ce9-4bb3-9d66-05ea96a57fdb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Murder Mystery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Murder Mystery/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Courtyard Setup.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Courtyard Setup.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR Starter Pack/XR Interaction Toolkit/2.6.3/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR Starter Pack/XR Interaction Toolkit/2.6.3/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,7 @@
       <updated>1730576177046</updated>
       <workItem from="1730576178897" duration="19000" />
       <workItem from="1731310475547" duration="2440000" />
-      <workItem from="1731318793329" duration="2926000" />
+      <workItem from="1731318793329" duration="3534000" />
     </task>
     <servers />
   </component>

@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Courtyard Setup.unity
+    guid: 5bc0f0a4abc5c084284ccf02b34fff3e
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b3114492f49ff3d41bd85a9de18956b7, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 61896e8fdaa99d846adcf23cbec86964, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 219a593e85deadf418c0317828c6e189, type: 2}

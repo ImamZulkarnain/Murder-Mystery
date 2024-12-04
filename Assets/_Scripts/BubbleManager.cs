@@ -12,6 +12,7 @@ public class BubbleManager : MonoBehaviour
     
     public GameObject sun;
     public GameObject boundary;
+    public GameObject nextFeature;
     private AudioSource currentAudio;
 
     // Start is called before the first frame update
@@ -35,6 +36,7 @@ public class BubbleManager : MonoBehaviour
 
             // prepare the next audio
             audioPlayed = false;
+            boundary.SetActive(false);
             currentAudio = transform.GetChild(index).gameObject.GetComponent<AudioSource>();
         }
         else if (currentAudio.isPlaying && !audioPlayed) // if audio is playing but hasn't been updated to show that...
@@ -51,6 +53,7 @@ public class BubbleManager : MonoBehaviour
         else if (index == 5) // once we reach the last bubble destroy everything for feature 1
         { 
             sun.SetActive(true);
+            nextFeature.SetActive(true);
             Destroy(transform.parent.gameObject);
         }
     }

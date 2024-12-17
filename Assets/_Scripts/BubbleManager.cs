@@ -18,10 +18,10 @@ public class BubbleManager : MonoBehaviour
     public TextAppender textAppender;
     
     private string[] notes = {
-        "Met Mr Green at 6:30",
-        "Would do anything for his funding.",
-        "Tried to silence Mr. Green",
-        "Intention seems inconsistent."
+        "- Collaborated on projects but clashed over data integrity.\n- Was desperate. Met at the wetlands at 6:30PM.",
+        "- Clashed over methods and timelines for research.\n- Stormed out of the 5:00 meeting, frustrated.",
+        "- Frequently issued warnings about controversial research directions.\n- Her call at 7:15 felt like intimidation.",
+        "- Advocated for compromise solutions to avoid public scrutiny.\n - Evelyn’s Nov 8th note hinted at strategy, not compromise."
     };
 
     // Start is called before the first frame update

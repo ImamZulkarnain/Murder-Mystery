@@ -3,7 +3,7 @@ using UnityEngine;
 public class BuzzerButton : MonoBehaviour
 {
     public AudioSource audioSourceBefore;
-    public AudioSource audioSourceAfter;
+   
     public GameObject feature3; // Reference to the Feature-3 GameObject
     public GameObject feature4;
     public GameObject intel;
@@ -21,11 +21,7 @@ public class BuzzerButton : MonoBehaviour
         }
         else
         {
-            if (audioSourceAfter != null && !audioSourceAfter.isPlaying)
-            {
-                audioSourceAfter.Play();
-                ActivateIntel();
-            }
+            ActivateIntel();
         }
 
     }

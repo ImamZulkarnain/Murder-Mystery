@@ -6,6 +6,7 @@ public class BuzzerButton : MonoBehaviour
     public AudioSource audioSourceAfter;
     public GameObject feature3; // Reference to the Feature-3 GameObject
     public GameObject feature4;
+    public GameObject intel;
     public bool emailOpened = false;
 
     public void PlayBuzzerSound()
@@ -16,17 +17,25 @@ public class BuzzerButton : MonoBehaviour
             {
                 audioSourceBefore.Play();
                 ActivateFeature3();
-            } 
+            }
         }
         else
         {
             if (audioSourceAfter != null && !audioSourceAfter.isPlaying)
             {
                 audioSourceAfter.Play();
-                ActivateFeature4();
-            } 
+                ActivateIntel();
+            }
         }
-        
+
+    }
+
+    public void ActivateIntel()
+    {
+        if (intel != null && !intel.activeSelf)
+        {
+            intel.SetActive(true);
+        }
     }
 
     private void ActivateFeature3()
@@ -46,7 +55,7 @@ public class BuzzerButton : MonoBehaviour
             Debug.Log("Feature-4 has been activated.");
         }
     }
-    
+
     public void setEmailOpened()
     {
         emailOpened = true;

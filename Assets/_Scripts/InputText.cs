@@ -21,9 +21,9 @@ public class InputText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(code.text.Length == 3)
+        if (code.text.Length == 3)
         {
-            if(code.text.Equals("476"))
+            if (code.text.Equals("476"))
             {
                 email.SetActive(true);
                 buzzerButton.setEmailOpened();

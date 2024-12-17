@@ -9,6 +9,7 @@ public class InputText : MonoBehaviour
     public TextMeshProUGUI code;
     public GameObject screen;
     public GameObject email;
+    public BuzzerButton buzzerButton;
     //public Button button;
 
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class InputText : MonoBehaviour
             if(code.text.Equals("476"))
             {
                 email.SetActive(true);
+                buzzerButton.setEmailOpened();
                 screen.SetActive(false);
             }
             else

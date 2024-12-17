@@ -1,0 +1,34 @@
+{
+    "name": "ToggleNotepad",
+    "maps": [
+        {
+            "name": "ToggleNotepad",
+            "id": "d5a2cecd-1233-447a-b320-89208d6f34e6",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "5480d989-6330-412a-b6f6-bbd3a0834916",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5511b9dc-9ffe-4436-8e97-8f42f3ed37ff",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
